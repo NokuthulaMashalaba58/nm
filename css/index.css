@@ -1,0 +1,85 @@
+body{
+  margin: 10pxs;
+  padding: 0%;
+  background-image:url('AvAQMygaegUIARD_AQ');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:burlywood;
+  
+  
+
+}
+
+nav{
+  height: 60px;
+  position: top;
+}
+nav ul{
+  flex-direction: column;
+  float: right;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none ;
+    padding: 5px;  
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+img{
+    border-radius: 50px;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    float: right;
+  }
+
+    h2{
+       color: blueviolet;
+         
+    }
+.home{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto; 
+  clear: both;
+  
+}
+.homesection{
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+text-align: center;
+}
+.container {
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  .vertical-center {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  h5{
+    text-align: center;
+  }
+  .style{
+    align-items: center;
+  }
+  
+  
+  .text-Small{
+    text-align: left;
+    background-image:url("/background.jpg");
+  }
+ 
+  
